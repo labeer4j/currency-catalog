@@ -1,0 +1,19 @@
+<div class="panel-group" >
+    <div class="panel panel-primary" *ngIf="selectedCurrency != null">
+    	<div class="panel-heading"><h1>{{selectedCurrency?.id}}</h1></div>
+    	<div class="panel-body">
+                    <b>Code</b> : {{selectedCurrency.attributes?.code}}<br/>
+                    <b>Name</b> : {{selectedCurrency.attributes?.name}}<br/>
+                    <b>Currency type</b> : {{selectedCurrency.attributes?.currency_type}}<br/>
+                    <b>Code iso numeric3</b> : {{selectedCurrency.attributes?.code_iso_numeric3}}<br/>
+                    <b>Code iso alpha3</b> : {{selectedCurrency.attributes?.code_iso_alpha3}}<br/>
+        </div>
+        <div class="panel-body">
+                <a class="btn btn-default"  [routerLink]="['/']"><b>Back</b></a>
+        </div>
+    </div>
+    <div class="alert alert-danger" role="alert" *ngIf="selectedCurrency == null" >
+        <b>Oh no!</b> Currency not found.
+    </div>
+</div>
+

@@ -1,0 +1,27 @@
+.row {
+    margin-top: 30px;
+}
+.currency-pagination {
+    margin: auto;
+}
+.currency-pagination td {
+    padding-right: 30px;
+}
+.currency-search {
+    border-spacing : 30px;
+    border-collapse : separate;
+}
+
+.currency-search td {
+    padding-right: 20px;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+     ransform: scale(1.3);
+}
+
+.alertmsg {
+    margin-left: 45px;
+}

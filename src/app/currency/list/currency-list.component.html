@@ -1,0 +1,61 @@
+<h1>{{title}}</h1>
+<table class="currency-search">
+    <tr>
+        <td>
+            <input type="text" class="form-control" placeholder="search currency here" (keyup)="searchCurrency()" [(ngModel)]="searchText">
+        </td>
+        <td>
+    <select class="form-control" (change)="searchCurrency()" [(ngModel)]="searchPropertie">
+        <option value="id">id</option>
+        <option value="code">code</option>
+        <option value="name">name</option>
+        <option value="type">type</option>
+    </select>
+        </td>
+    </tr>
+</table>
+
+<div class="row">
+	<div *ngFor="let currency of pagedItems" class="panel-group col-xs-6 col-sm-3 col-md-2 col-lg-2" (click)="rowClick(currency)">
+  		<div class="panel panel-primary grow">
+    		<div class="panel-heading"><b>ID: {{currency.id}}</b></div>
+    		<div class="panel-body">Type: {{currency.attributes.currency_type}} Symbol: {{currency.attributes.symbol}}</div>
+  		</div>
+	</div>
+        <span *ngIf="!(pager?.pages && pager?.pages.length)" class="alert-danger alertmsg">NO DATA FOUND !</span>
+</div>
+<br/>
+<table class="currency-pagination">
+<tr *ngIf="pager.pages && pager.pages.length">
+    <td>
+        <select (change)="changePageSize($event.target.value)" class="form-control">
+            <option *ngFor="let pageSize of pageSizeValues" value="{{pageSize}}">{{pageSize}}</option>
+        </select>
+    </td>
+    <td>
+        <ul class="pagination">
+            <li [ngClass]="{disabled:pager.currentPage === 1}">
+                <a (click)="setPage(1)">
+            <span class="glyphicon glyphicon-backward">
+            </span>
+                </a>
+            </li>
+            <li [ngClass]="{disabled:pager.currentPage === 1}">
+                <a (click)="setPage(pager.currentPage - 1)">Previous</a>
+            </li>
+            <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+                <a (click)="setPage(page)">{{page}}</a>
+            </li>
+            <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+                <a (click)="setPage(pager.currentPage + 1)">Next</a>
+            </li>
+            <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+                <a (click)="setPage(pager.totalPages)">
+            <span class="glyphicon glyphicon-forward">
+            </span>
+                </a>
+            </li>
+        </ul>
+    </td>
+</tr>
+</table>

@@ -1,0 +1,860 @@
+[
+  {
+    "id": "USD",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD2",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR2",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY2",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS2",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC2",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF2",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD3",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR3",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY3",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS3",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC3",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF3",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD4",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR4",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY4",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS4",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC4",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF4",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD5",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR5",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY5",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS5",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC5",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF5",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD6",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR6",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY6",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS6",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC6",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF6",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD7",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR7",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY7",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS7",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC7",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF7",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD8",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR8",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY8",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS8",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC8",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF8",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD9",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR9",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY9",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS9",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC9",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF9",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD10",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR10",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY10",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS10",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC10",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF10",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  },
+  {
+    "id": "USD11",
+    "attributes": {
+      "code": "USD",
+      "name": "US Dollar",
+      "currency_type": "national",
+      "code_iso_numeric3": "840",
+      "code_iso_alpha3": "USD",
+      "symbol": "$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "EUR11",
+    "attributes": {
+      "code": "EUR",
+      "name": "Euro",
+      "currency_type": "national",
+      "code_iso_numeric3": "978",
+      "code_iso_alpha3": "EUR",
+      "symbol": "€",
+      "native_symbol": "€",
+      "category": "others"
+    }
+  },
+  {
+    "id": "JPY11",
+    "attributes": {
+      "code": "JPY",
+      "name": "Yen",
+      "currency_type": "national",
+      "code_iso_numeric3": "392",
+      "code_iso_alpha3": "JPY",
+      "symbol": "¥",
+      "native_symbol": "¥",
+      "category": "others"
+    }
+  },
+  {
+    "id": "ARS11",
+    "attributes": {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "currency_type": "national",
+      "code_iso_numeric3": "032",
+      "code_iso_alpha3": "ARS",
+      "symbol": "AR$",
+      "native_symbol": "$",
+      "category": "others"
+    }
+  },
+  {
+    "id": "CUC11",
+    "attributes": {
+      "code": "CUC",
+      "name": "Peso Convertible",
+      "currency_type": "national",
+      "code_iso_numeric3": "931",
+      "code_iso_alpha3": "CUC",
+      "symbol": null,
+      "native_symbol": null,
+      "category": "others"
+    }
+  },
+  {
+    "id": "CHF11",
+    "attributes": {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "currency_type": "national",
+      "code_iso_numeric3": "756",
+      "code_iso_alpha3": "CHF",
+      "symbol": "CHF",
+      "native_symbol": "CHF",
+      "category": "others"
+    }
+  }
+]
